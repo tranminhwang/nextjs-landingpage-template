@@ -1,0 +1,21 @@
+{
+  "Typescript component snippet": {
+    "prefix": "tsrfc",
+    "scope": "typescriptreact",
+    "body": [
+      "import css from './${1:$TM_FILENAME_BASE}.module.scss';",
+      "",
+      "type T${1:$TM_FILENAME_BASE}Props = {};",
+      "",
+      "const ${1:$TM_FILENAME_BASE}: React.FC<",
+      "  T${1:$TM_FILENAME_BASE}Props",
+      "> = () => {",
+      "  return <div className={css.root}></div>;",
+      "};",
+      "",
+      "export default ${1:$TM_FILENAME_BASE};",
+      ""
+    ],
+    "description": "Typescript component snippet"
+  }
+}
