@@ -1,0 +1,10 @@
+{
+  "Products": {
+    "cart": "Thêm vào giỏ hàng"
+  },
+  "ExamplePage": {
+    "increment": "Tăng",
+    "decrement": "Giảm",
+    "incrementByAmount": "Tăng theo số lượng"
+  }
+}

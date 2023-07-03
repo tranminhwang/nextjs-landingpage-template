@@ -1,7 +1,6 @@
-export default function Home() {
-  return (
-    <main className="h-screen w-screen xs:bg-red-500 sm:bg-yellow-500 md:bg-green-500 lg:bg-orange-500 xl:bg-black 2xl:bg-pink-500">
-      Home Page
-    </main>
-  );
+import { redirect } from 'next/navigation';
+
+// This page only renders when the app is built statically (output: 'export')
+export default function RootPage() {
+  redirect('/vi');
 }

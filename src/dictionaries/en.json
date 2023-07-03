@@ -1,0 +1,10 @@
+{
+  "Products": {
+    "cart": "Add to Cart"
+  },
+  "ExamplePage": {
+    "increment": "Increment",
+    "decrement": "Decrement",
+    "incrementByAmount": "Increment by amount"
+  }
+}
