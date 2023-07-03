@@ -1,3 +1,3 @@
-export default function NotFoundPage() {
-  return <h1>Not Found</h1>;
+export default function LocaleNotFoundPage() {
+  return <h1>404 - Not Found</h1>;
 }

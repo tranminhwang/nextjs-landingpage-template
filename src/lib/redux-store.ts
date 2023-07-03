@@ -3,10 +3,12 @@ import { useDispatch, useSelector } from 'react-redux';
 import type { TypedUseSelectorHook } from 'react-redux';
 
 import counterReducers from '@/features/counter';
+import userReducers from '@/features/user';
 
 export const store = configureStore({
   reducer: {
     counter: counterReducers,
+    user: userReducers,
   },
 });
 
