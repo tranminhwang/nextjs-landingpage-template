@@ -1,10 +1,8 @@
 {
-  "Products": {
-    "cart": "Thêm vào giỏ hàng"
+  "LocaleLayout": {
+    "title": "Chọn ngôn ngữ"
   },
-  "ExamplePage": {
-    "increment": "Tăng",
-    "decrement": "Giảm",
-    "incrementByAmount": "Tăng theo số lượng"
+  "HomePage": {
+    "helloWorld": "Xin chào thế giới!"
   }
 }

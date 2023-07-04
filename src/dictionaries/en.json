@@ -1,10 +1,8 @@
 {
-  "Products": {
-    "cart": "Add to Cart"
+  "LocaleLayout": {
+    "title": "Locale Layout"
   },
-  "ExamplePage": {
-    "increment": "Increment",
-    "decrement": "Decrement",
-    "incrementByAmount": "Increment by amount"
+  "HomePage": {
+    "helloWorld": "Hello World"
   }
 }
