@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google';
 import { NextIntlClientProvider, createTranslator } from 'next-intl';
+import ReduxProvider from '@/components/redux-provider';
 import getDictionary from '@/lib/dictionaries';
-import ReduxProvider from '@/components/ReduxProvider';
 import { locales } from '@/constants/common';
 
 const inter = Inter({ subsets: ['latin'] });

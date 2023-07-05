@@ -14,5 +14,9 @@ module.exports = {
       xs: '475px',
       ...defaultTheme.screens,
     },
+    container: {
+      center: true,
+      padding: '1rem',
+    },
   },
 };
