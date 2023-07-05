@@ -1,78 +1,72 @@
 import classNames from 'classnames';
 import React from 'react';
 
-interface HeadingProps {
-  children: React.ReactNode;
-  className?: string;
-}
+type HeadingProps = React.HTMLAttributes<HTMLHeadingElement>;
 
 const defaultStyles = 'tracking-[0.1px] my-4';
 
-export function HeadingOne({ children, className }: HeadingProps) {
+export function HeadingOne({ className, ...props }: HeadingProps) {
   return (
     <h1
+      {...props}
       className={classNames(
         className,
         'text-4xl md:text-5xl lg:text-6xl font-bold',
         defaultStyles,
-      )}>
-      {children}
-    </h1>
+      )}
+    />
   );
 }
 
-export function HeadingTwo({ children, className }: HeadingProps) {
+export function HeadingTwo({ className, ...props }: HeadingProps) {
   return (
     <h2
+      {...props}
       className={classNames(
         className,
         'text-3xl md:text-4xl font-extrabold',
         defaultStyles,
-      )}>
-      {children}
-    </h2>
+      )}
+    />
   );
 }
 
-export function HeadingThree({ children, className }: HeadingProps) {
+export function HeadingThree({ className, ...props }: HeadingProps) {
   return (
     <h3
+      {...props}
       className={classNames(
         className,
         'text-2xl md:text-3xl font-bold',
         defaultStyles,
-      )}>
-      {children}
-    </h3>
+      )}
+    />
   );
 }
 
-export function HeadingFour({ children, className }: HeadingProps) {
+export function HeadingFour({ className, ...props }: HeadingProps) {
   return (
     <h4
-      className={classNames(
-        className,
-        'text-xl font-extrabold',
-        defaultStyles,
-      )}>
-      {children}
-    </h4>
+      {...props}
+      className={classNames(className, 'text-xl font-extrabold', defaultStyles)}
+    />
   );
 }
 
-export function HeadingFive({ children, className }: HeadingProps) {
+export function HeadingFive({ className, ...props }: HeadingProps) {
   return (
     <h5
-      className={classNames(className, 'text-lg font-semibold', defaultStyles)}>
-      {children}
-    </h5>
+      {...props}
+      className={classNames(className, 'text-lg font-semibold', defaultStyles)}
+    />
   );
 }
 
-export function HeadingSix({ children, className }: HeadingProps) {
+export function HeadingSix({ className, ...props }: HeadingProps) {
   return (
-    <h6 className={classNames(className, 'text-base font-bold', defaultStyles)}>
-      {children}
-    </h6>
+    <h6
+      {...props}
+      className={classNames(className, 'text-base font-bold', defaultStyles)}
+    />
   );
 }

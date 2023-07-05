@@ -1,5 +1,5 @@
 @use '/src/styles/vars.scss' as *;
-@use '/src/styles/customMediaQueries.scss' as *;
+@use '/src/styles/media-queries.scss' as *;
 
 @tailwind base;
 @tailwind components;
